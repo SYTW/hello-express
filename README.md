@@ -8,6 +8,11 @@ Lee los siguientes tutoriales:
 
 ## Ejecución de la aplicación de ejemplo
 
-* `npm install`
+* Haga un clone de este repo: [https://github.com/SYTW/hello-express](https://github.com/SYTW/hello-express)
+
+                            git clone git@github.com:SYTW/hello-express.git
+
+* Instala las dependencias con `npm install`
 * Arranca el servidor con `npm test`
 * Abre un navegador en [http://localhost:8080](http://localhost:8080) con `npm run view`
+
