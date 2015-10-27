@@ -1,6 +1,6 @@
 ## Introducción a ExpressJS
 
-Lee los siguientes tutoriales:
+Lea los siguientes tutoriales:
 
 * [Express pages/getting started: installing](http://expressjs.com/starter/installing.html)
 * [hello world example](http://expressjs.com/starter/hello-world.html)
