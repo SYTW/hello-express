@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node hello.js"
+    "test": "node hello.js",
     "view": "open http://localhost:8080/"
   },
   "author": "",
