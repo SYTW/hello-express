@@ -3,8 +3,10 @@
 Lee los siguientes tutoriales:
 
 * [Express pages/getting started: installing](http://expressjs.com/starter/installing.html)
+* [hello world example](http://expressjs.com/starter/hello-world.html)
 * [Express pages/getting started: generator](http://expressjs.com/starter/generator.html)
-* [Using middleware](http://expressjs.com/guide/using-middleware.html)
+* [Basic routing tutorial](http://expressjs.com/starter/basic-routing.html)
+* [Serving static files in Express](http://expressjs.com/starter/static-files.html)
 
 ## Ejecución de la aplicación de ejemplo
 
