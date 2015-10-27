@@ -20,7 +20,7 @@ Lea los siguientes tutoriales:
 * Abre un navegador en [http://localhost:8080](http://localhost:8080) manualmente o bien con `npm run view`
 si estás en un mac
 
-* Estos son los shell scripts usados para las dos paso anteriore (fragmento de `package.json`):
+* Estos son los shell scripts usados para las dos paso anteriores (fragmento de `package.json`):
 
                               "scripts": {
                                   "test": "node hello.js",
