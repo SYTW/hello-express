@@ -6,12 +6,13 @@ Estudie los siguientes tutoriales:
 * [hello world example](http://expressjs.com/starter/hello-world.html)
 * [Use EJS to Template Your Node Application](https://scotch.io/tutorials/use-ejs-to-template-your-node-application)
 * [express-ejs-layouts: Layout support for ejs in express.](https://www.npmjs.com/package/express-ejs-layouts)
-<!---
-* [Express pages/getting started: generator](http://expressjs.com/starter/generator.html)
--->
 * [Basic routing tutorial](http://expressjs.com/starter/basic-routing.html)
 * [Serving static files in Express](http://expressjs.com/starter/static-files.html)
 * [Curso MOOC Node.JS: Introducción a express.js y al middleware static](https://www.youtube.com/watch?v=Am6v7apaTkI&feature=youtu.be) YouTube
+
+<!---
+* [Express pages/getting started: generator](http://expressjs.com/starter/generator.html)
+-->
 
 ## Ejecución de la aplicación de ejemplo
 
