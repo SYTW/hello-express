@@ -1,5 +1,7 @@
 var express = require('express')
 var app = express()
+
+// https://nodejs.org/api/path.html
 var path = require('path');
 
 // view engine setup
