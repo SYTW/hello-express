@@ -6,10 +6,15 @@ var path = require('path');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+// set the view engine to ejs
 app.set('view engine', 'ejs'); // http://expressjs.com/api.html#app.set
+
+var expressLayouts = require('express-ejs-layouts');
+app.set('layout', 'layout'); // defaults to 'layout'  '
 
 // Serve static files
 app.use(express.static('.')); // http://expressjs.com/api.html#app.use#
+app.use(expressLayouts);
 
 // Luego la consultamos con app.get('port')
 app.set('port', (process.env.PORT || 8080)); 
