@@ -47,7 +47,7 @@ app.get('/', function(req, res){
 // that `req.body` will be filled in with the form elements
 app.post('/', function(req, res){
   var userName = req.body.userName;
-  res.render('greet', {userName: userName});
+  res.render('greet', {userName: userName, title: 'greet'});
 });
 
 app.listen(app.get('port'), function() {
