@@ -1,12 +1,13 @@
 ## Introducción a ExpressJS
 
-Lea los siguientes tutoriales:
+Estudie los siguientes tutoriales:
 
 * [Express pages/getting started: installing](http://expressjs.com/starter/installing.html)
 * [hello world example](http://expressjs.com/starter/hello-world.html)
 * [Express pages/getting started: generator](http://expressjs.com/starter/generator.html)
 * [Basic routing tutorial](http://expressjs.com/starter/basic-routing.html)
 * [Serving static files in Express](http://expressjs.com/starter/static-files.html)
+* [Curso MOOC Node.JS: Introducción a express.js y al middleware static](https://www.youtube.com/watch?v=Am6v7apaTkI&feature=youtu.be) YouTube
 
 ## Ejecución de la aplicación de ejemplo
 
@@ -26,4 +27,7 @@ si estás en un mac
                                   "test": "node hello.js",
                                   "view": "open http://localhost:8080/"
                                 },
+## Contexto
 
+* Este [repo en GitHub](https://github.com/SYTW/hello-express)
+* [Campus virtual](https://campusvirtual.ull.es/)

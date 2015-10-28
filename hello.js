@@ -4,14 +4,13 @@ var path = require('path');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); // http://expressjs.com/api.html#app.set
 
 // Serve static files
-app.use(express.static('.'));
+app.use(express.static('.')); // http://expressjs.com/api.html#app.use#
 
-app.set('port', (process.env.PORT || 8080));
-
-var express = require('express');
+// Luego la consultamos con app.get('port')
+app.set('port', (process.env.PORT || 8080)); 
 
 /*
  * body-parser is a piece of express middleware that 
