@@ -39,15 +39,16 @@ app.get('/', function(req, res){
   // The form's action is '/' and its method is 'POST',
   // so the `app.post('/', ...` route will receive the
   // result of our form
-  res.render('index', { title: "form"});
+  res.render('index', { title: "CSV"});
 });
 
 // This route receives the posted form.
 // As explained above, usage of 'body-parser' means
 // that `req.body` will be filled in with the form elements
-app.post('/', function(req, res){
-  var userName = req.body.userName;
-  res.render('greet', {userName: userName, title: 'greet'});
+app.post('/csv', function(req, res){
+  var csv = req.body.csv;
+  console.log(csv);
+  res.render('csv', {csv: csv, title: 'csv'});
 });
 
 app.listen(app.get('port'), function() {
