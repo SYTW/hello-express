@@ -48,9 +48,10 @@ app.get('/', function(req, res){
 // This route receives the posted form.
 // As explained above, usage of 'body-parser' means
 // that `req.body` will be filled in with the form elements
-app.post('/csv', function(req, res){
-  var csv = req.body.csv;
+app.get('/csv', function(req, res){
+  var csv = req.query.csv;
   console.log(csv);
+  //var result = util.inspect(csv, {depth: null});
   var result = util.inspect(calculate(csv), {depth: null});
   res.render('csv', {csv: result, title: 'csv'});
 });
