@@ -1,5 +1,6 @@
 var express = require('express')
 var app = express()
+  var util = require('util');
 
 // https://nodejs.org/api/path.html
 var path = require('path');
@@ -32,6 +33,8 @@ app.set('port', (process.env.PORT || 8080));
 var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }));
 
+var calculate = require('./calculate.js');
+
 // A browser's default method is 'GET', so this
 // is the route that express uses when we visit
 // our site initially.
@@ -48,7 +51,8 @@ app.get('/', function(req, res){
 app.post('/csv', function(req, res){
   var csv = req.body.csv;
   console.log(csv);
-  res.render('csv', {csv: csv, title: 'csv'});
+  var result = util.inspect(calculate(csv), {depth: null});
+  res.render('csv', {csv: result, title: 'csv'});
 });
 
 app.listen(app.get('port'), function() {
